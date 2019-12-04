@@ -26,8 +26,7 @@ def youtube_login(email, password):
 def comment_page(driver, urls, comment):
     # Check if there still urls
     if len(urls) == 0:
-        print
-        "Youtube Comment Bot: Finished!"
+        print("Youtube Comment Bot: Finished!")
         return []
 
     # Pop a URL from the array
