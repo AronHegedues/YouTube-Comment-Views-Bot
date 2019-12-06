@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 def youtube_login(email, password, incognito=True):
     # Browser
     driver_path = r"chromedriver.exe"
-    brave_path = r"C:\Users\Aronh\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe"
+    brave_path = r"C:\Users\YOURUSERNAME\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe"
 
     option = webdriver.ChromeOptions()
     option.binary_location = brave_path
@@ -99,10 +99,9 @@ def watch(minwatch=None, maxwatch=None):
 
 def random_comment():
     messages = [
-        "Sehr cool!",
-        "Ich würde gerne gewinnen",
-        "Tolles Gewinnspiel",
-        "Schönes Video"
+        "msg1",
+        "msg2",
+        "msg3"
     ]
 
     r = random.randrange(0, len(messages))
@@ -129,8 +128,8 @@ def close_driver():
 if __name__ == "__main__":
 
     # Credentials
-    emails = ["siriusb140"]
-    passwords = ["#Gamepad84"]
+    emails = ["USERNAME"]
+    passwords = ["PASSWORD"]
 
     # List of Urls
     urls = [
