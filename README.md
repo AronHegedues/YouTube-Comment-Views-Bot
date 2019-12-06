@@ -3,7 +3,7 @@ YouTube bot for commenting and viewing videos. Liking/Subscribing coming soon
 
 ## Setup
 
-* Get the [Brave browser](brave.com)
+* Get the [Brave browser](https://brave.com/)
 * Install [Python 3.7](https://www.python.org/downloads/) or higher
 
 * Type in CMD:
