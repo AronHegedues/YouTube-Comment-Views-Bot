@@ -12,8 +12,7 @@ YouTube bot for commenting and viewing videos. Liking/Subscribing coming soon
 pip3 install selenium 
 ```
 
-* Download or clone the repository
-* unzip 
+* Download or clone the repository and unzip it
 
 ## Running
 * Open 'bot.py' and edit the variable 'brave_path' to the path of brave.exe
