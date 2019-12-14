@@ -15,6 +15,6 @@ pip3 install selenium
 * Download or clone the repository and unzip it
 
 ## Running
-* Open 'bot.py' and edit the variable 'brave_path' to the path of brave.exe
-* Edit the variables 'email' and 'password' to the login data of a Google account, you want to use to watch and comment videos. WARNING: Don't use your main or another important account, because there's a risk of getting banned
-* Edit the 'url' variable to the urls you want to watch and comment and change the comments in the variable 'messages' to your wish.
+* Go to targets/accounts.txt and add your own accounts. WARNING: Don't use your main or another important account, because there's a risk of getting banned
+* Go to targets/urls.txt and add the urls of the videos.
+* Run YouTube-Bot.py
