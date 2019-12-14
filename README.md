@@ -16,5 +16,5 @@ pip3 install selenium
 
 ## Running
 * Go to targets/accounts.txt and add your own accounts. WARNING: Don't use your main or another important account, because there's a risk of getting banned
-* Go to targets/urls.txt and add the urls of the videos.
+* Go to targets/urls.txt and add the urls of the videos you want to comment/view
 * Run YouTube-Bot.py
