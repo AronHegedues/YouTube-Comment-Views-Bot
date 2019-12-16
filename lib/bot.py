@@ -145,9 +145,11 @@ def start(comment=False, view=True, minwatch=None, maxwatch=None, accountspath=r
     with open(accountspath) as accounts:
         accounts = accounts.read().split("\n")
         for account in accounts:
-            account = account.split(":")
-            emails.append(account[0])
-            passwords.append(account[1])
+            if ":" in account:
+                account = account.replace(" ", "")
+                account = account.split(":")
+                emails.append(account[0])
+                passwords.append(account[1])
 
     # List of Urls
     urlslist = []
@@ -158,7 +160,9 @@ def start(comment=False, view=True, minwatch=None, maxwatch=None, accountspath=r
         urls = urls.read().split("\n")
         print(urls)
         for url in urls:
-            urlslist.append(url)
+            if "." in url:
+                url = url.replace(" ", "")
+                urlslist.append(url)
 
     # check if there's a password for every email
     assert len(emails) == len(passwords), "Amount of emails != amount passwords"
