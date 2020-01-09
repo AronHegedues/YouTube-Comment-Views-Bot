@@ -3,16 +3,16 @@
 
 ## Setup
 
+* Download or clone the repository and unzip it
 * Get the [Brave browser](https://brave.com/)
 * Install [Python 3.7](https://www.python.org/downloads/) or higher
+* Install the latest stable version of [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) and place it in the same folder as "Bot.py"
 
-* Type in CMD:
+* Install dependencies:
 
 ```
 pip3 install selenium 
 ```
-
-* Download or clone the repository and unzip it
 
 ## Running
 * Open bot.py and edit the variable brave_path to the path of brave.exe
